@@ -1,205 +1,315 @@
-# Lung Cancer Subtype Classification using TCGA RNA-seq Data
+# TCGA LUAD–LUSC Classification Using Machine Learning and Transcriptomics
+A Complete Bioinformatics & ML Pipeline for Lung Cancer Subtype Classification
 
-This project builds a complete and reproducible machine-learning pipeline for distinguishing **Lung Adenocarcinoma (LUAD)** from **Lung Squamous Cell Carcinoma (LUSC)** using transcriptomic (RNA-seq) data from **The Cancer Genome Atlas (TCGA)**.
+This repository presents a fully reproducible, end-to-end computational oncology pipeline to classify Lung Adenocarcinoma (LUAD) vs Lung Squamous Cell Carcinoma (LUSC) using RNA-Seq gene expression data from The Cancer Genome Atlas (TCGA).
 
-The workflow includes:
+The workflow integrates:
+- High-dimensional gene expression analysis
+- Dimensionality reduction (PCA)
+- Machine Learning (Linear SVM)
+- Gene-level feature interpretation
+- Functional enrichment (GO/KEGG)
+- Survival analysis using clinical metadata
 
-- Data preparation  
-- Log-transformation and normalization  
-- Machine-learning classification using a linear SVM  
-- Cross-validation and model benchmarking  
-- Gene-level biological interpretation  
-- Functional enrichment analysis  
-- Kaplan–Meier survival analysis  
+This repository is structured in an educational and research-ready manner, suitable for:
+- Bioinformatics students
+- Computational biology researchers
+- ML practitioners entering genomics
+- Thesis / dissertation projects
+- Reproducibility and benchmarking
 
-The project is structured so that **any beginner can understand**, yet follows best practices used in real research pipelines.
+------------------------------------------------------------
 
-----
+# Project Highlights
 
-## ⭐ Key Results
+Scientific Goal  
+Distinguish two major NSCLC (non–small cell lung cancer) subtypes using transcriptomics.
 
-- **Accuracy (Test Set):** ~96%  
-- **Cross-Validation Accuracy:** ~95%  
-- **AUC:** ~0.99  
-- **Biological Markers Identified:**  
-  - LUSC: keratins and squamous-differentiation genes  
-  - LUAD: lineage and secretory-cell markers  
-- **Enrichment:**  
-  - LUAD → developmental & signaling pathways  
-  - LUSC → epidermal, keratinization, and cell-structure programs  
-- **Survival:** No significant difference (log-rank p ≈ 0.24)
+Machine Learning Goal  
+Create a robust SVM model capable of subtype prediction with >95% accuracy.
 
----
+Bioinformatics Goals  
+Identify subtype-specific genes and pathways, and evaluate their clinical relevance.
 
-## 📂 Project Structure
+Key Achievements  
+
+| Task                            | Result                                                                     |
+| ------------------------------- | -------------------------------------------------------------------------- |
+| SVM Classification Accuracy     | ~96%                                                                       |
+| AUC (ROC)                       | ~0.99                                                                      |
+| Dimensionality Reduction        | PCA separates LUAD and LUSC clearly                                        |
+| Biological Signals              | LUAD enriched for developmental pathways; LUSC enriched for keratinization |
+| Survival Analysis               | No significant survival difference (log-rank p ≈ 0.24)                     |
+
+------------------------------------------------------------
+
+# Conceptual Workflow
+
+Raw TCGA Data → Preprocessing → Feature Engineering → PCA → SVM Model → Gene Interpretation → Enrichment → Survival Analysis
+
+------------------------------------------------------------
+
+# Directory Structure
+
+```
 
 LUAD_LUSC_Project/
 │
 ├── data/
-│ ├── TCGA-LUAD.clinical.tsv
-│ ├── TCGA-LUSC.clinical.tsv
-│ ├── TCGA-LUAD.star_tpm.tsv
-│ ├── TCGA-LUSC.star_tpm.tsv
-│ ├── expression.csv
-│ └── labels.csv
+│   ├── TCGA-LUAD.clinical.tsv
+│   ├── TCGA-LUSC.clinical.tsv
+│   └── labels.csv
 │
 ├── scripts/
-│ ├── prepare_data.py
-│ ├── train_svm.py
-│ ├── evaluate_svm.py
-│ ├── cross_validation.py
-│ ├── model_comparision.py
-│ ├── enrichment_analysis.py
-│ └── survival_analysis.py
+│   ├── prepare_data.py
+│   ├── train_svm.py
+│   ├── evaluate_svm.py
+│   ├── cross_validation.py
+│   ├── model_comparision.py
+│   ├── enrichment_analysis.py
+│   └── survival_analysis.py
 │
 ├── results/
-│ ├── svm_model.pkl
-│ ├── scaler.pkl
-│ ├── variance_selector.pkl
-│ ├── top_genes.csv
-│ ├── enrichment_LUAD.csv
-│ └── enrichment_LUSC.csv
+│   ├── svm_model.pkl
+│   ├── scaler.pkl
+│   ├── variance_selector.pkl
+│   ├── enrichment_LUAD.csv
+│   ├── enrichment_LUSC.csv
+│   └── top_genes.csv
 │
-└── plots/
-├── pca.png
-├── roc.png
-├── confusion_matrix.png
-├── heatmap.png
-├── enrichment_LUAD.png
-├── enrichment_LUSC.png
-└── survival_analysis.png
+├── plots/
+│   ├── pca.png
+│   ├── roc.png
+│   ├── confusion_matrix.png
+│   ├── heatmap.png
+│   ├── enrichment_LUAD.png
+│   ├── enrichment_LUSC.png
+│   └── survival_analysis.png
+│
+└── README.md
 
+```
 
----
+------------------------------------------------------------
 
-## 🧪 Methods Overview (Beginner-Friendly)
+# Methodology (Detailed)
 
-### **1. Data Preparation**
-- TCGA RNA-seq TPM matrices were merged.
-- Clinical files were loaded and mapped.
-- A final `expression.csv` matrix (samples × genes) and `labels.csv` (sample → subtype) were created.
+## 1. Data Acquisition & Preprocessing
 
-### **2. Log Transformation**
-RNA-seq data is right-skewed.  
-We apply:
+TCGA RNA-Seq TPM matrices (not included due to size and licensing) were processed to create:
+- A consolidated LUAD/LUSC label file
+- Clinical metadata tables
+- Final expression matrix (external due to size)
 
+Processing steps include:
+```
 
+X_log = log2(X + 1)
 
-log1p((x) = log(x + 1)
+```
+- Filtering low-expressed genes
+- Aligning clinical labels
+- Merging LUAD and LUSC cohorts
 
+------------------------------------------------------------
 
-This prevents extreme outliers from dominating PCA or SVM decision boundaries.
+## 2. Feature Engineering
 
-### **3. Train/Test Split**
-- 80% Train  
-- 20% Test  
-- Stratified so LUAD/LUSC representation is preserved.
+Variance Thresholding  
+Genes with near-constant expression were removed:
+```
 
-### **4. Feature Selection**
-Low-variance genes removed using:
+VarianceThreshold(threshold=0.1)
 
-VarianceThreshold(0.1)
+```
 
+Standard Scaling  
+Fit on training data only:
+```
 
-This focuses the model on biologically informative genes.
+Z = (X - μ) / σ
 
-### **5. Scaling**
-Z-score standardization is fit **only on the training data** to avoid data leakage.
+```
 
-### **6. Model Training**
-A **linear SVM** is used:
-- Excellent for high-dimensional gene expression data  
-- Coefficients directly show top predictive genes  
+------------------------------------------------------------
 
-The trained model and preprocessing objects are saved as `.pkl` files.
+## 3. PCA
 
-### **7. Evaluation**
-The following are generated:
-- Confusion matrix  
-- PCA visualization  
-- ROC curve  
-- Heatmap of top discriminatory genes  
+- Used to visualize LUAD–LUSC separation  
+- PC1 vs PC2 shows clear subtype separation  
+Plot: `plots/pca.png`
 
-### **8. Biological Enrichment**
-Top LUAD and LUSC genes (based on SVM weights) are analyzed using:
+------------------------------------------------------------
 
-- **Enrichr (GSEApy)**  
-- **GO Biological Processes 2021**
+## 4. SVM Classification
 
-### **9. Survival Analysis**
-Using TCGA clinical metadata:
-- Kaplan–Meier curves  
-- Log-rank statistical testing  
+Linear SVM pipeline:
+- 80/20 train–test split
+- StandardScaler
+- Linear SVM
+- Confusion matrix, ROC, AUC
 
-Result: LUAD and LUSC show **no significant difference** in overall survival in this dataset.
+Results:
+```
 
----
+Accuracy ≈ 96%
+AUC ≈ 0.99
 
-## 📦 Installation
+```
 
-pip install numpy pandas scikit-learn matplotlib seaborn gseapy lifelines mygene
+Artifacts:
+- `svm_model.pkl`
+- `scaler.pkl`
+- `top_genes.csv`
 
+------------------------------------------------------------
 
----
+## 5. Biological Interpretation
 
-## ▶️ How to Run the Pipeline
+Top genes extracted from SVM coefficients.
 
-### **1. Prepare the Data**
+LUAD-specific genes:
+- Developmental and signaling pathways
+
+LUSC-specific genes:
+- Keratinization
+- Epithelial differentiation
+
+Heatmap: `plots/heatmap.png`
+
+------------------------------------------------------------
+
+## 6. Functional Enrichment (GO/KEGG)
+
+Performed using GSEApy (Enrichr API).
+
+LUAD:
+- MAPK signaling
+- Cell differentiation
+- Developmental pathways
+
+LUSC:
+- Keratinization
+- Epithelial differentiation
+- Structural organization
+
+Results:
+- `results/enrichment_LUAD.csv`
+- `results/enrichment_LUSC.csv`
+
+Plots:
+- `plots/enrichment_LUAD.png`
+- `plots/enrichment_LUSC.png`
+
+------------------------------------------------------------
+
+## 7. Survival Analysis
+
+Using lifelines:
+- Kaplan–Meier curves
+- Log-rank test
+
+Outcome:
+- No significant survival difference (p ≈ 0.24)
+
+Plot: `plots/survival_analysis.png`
+
+------------------------------------------------------------
+
+# How to Reproduce
+
+Install dependencies:
+```
+
+pip install numpy pandas scikit-learn seaborn matplotlib gseapy lifelines mygene
+
+```
+
+Preprocessing:
+```
+
 python scripts/prepare_data.py
 
-### **2. Train the SVM**
+```
+
+Train SVM:
+```
+
 python scripts/train_svm.py
 
-### **3. Evaluate**
+```
+
+Evaluate:
+```
+
 python scripts/evaluate_svm.py
 
-### **4. Cross-Validation**
-python scripts/cross_validation.py
+```
 
+Enrichment:
+```
 
-### **5. Benchmark Models**
-python scripts/model_comparision.py
-
-
-### **6. Perform Enrichment Analysis**
 python scripts/enrichment_analysis.py
 
-### **7. Run Survival Analysis**
+```
+
+Survival:
+```
+
 python scripts/survival_analysis.py
 
----
+```
 
-## 📘 What This Project Demonstrates
+------------------------------------------------------------
 
-- How raw RNA-seq TPM counts can be transformed into machine-learning-ready features.
-- How to prevent data leakage and build a scientifically valid pipeline.
-- How classical ML (linear SVM) performs extremely well on high-dimensional biomedical data.
-- How predictive gene signatures can be interpreted biologically.
-- How computational oncology integrates molecular, clinical, and statistical layers.
+# Data Acquisition (Direct TCGA Links)
 
----
+Due to size and redistribution restrictions, raw datasets are not included.
 
-## 📝 Future Improvements
+Download data from the official GDC-hosted files:
 
-- Add external validation using GEO datasets.  
-- Integrate more cancer subtypes (pan-cancer classification).  
-- Test nonlinear models (XGBoost, deep learning).  
-- Build a small app to classify new samples based on TPM values.
+LUAD TPM  
+https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.star_tpm.tsv.gz
 
----
+LUSC TPM  
+https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUSC.star_tpm.tsv.gz
 
-## 🤝 Acknowledgements
+LUAD Clinical  
+https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.clinical.tsv.gz
 
-- Data sourced from **The Cancer Genome Atlas (TCGA)**.  
-- Gene Ontology enrichment via **Enrichr / GSEApy**.  
-- Survival analysis via **lifelines**.  
+LUSC Clinical  
+https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUSC.clinical.tsv.gz
 
----
+Place downloaded files into:
+```
 
-## 📄 License
+LUAD_LUSC_Project/data/
 
-MIT License 
+```
 
+------------------------------------------------------------
 
+# Future Improvements
 
+- Multi-cancer classification (pan-cancer ML)
+- Add nonlinear models (XGBoost, Deep Learning)
+- SHAP / LIME explainability
+- Build an interactive classification web app
+- Apply batch correction (ComBat)
 
+------------------------------------------------------------
+
+# Acknowledgments
+
+- TCGA Research Network
+- Enrichr / GSEApy
+- Lifelines Python package
+- SVM theory: Cortes & Vapnik (1995)
+
+------------------------------------------------------------
+
+# Author
+
+Ananya Pattjoshi  
+Bioinformatics • Machine Learning • Genomics  
+GitHub: https://github.com/Ananyapatt13
