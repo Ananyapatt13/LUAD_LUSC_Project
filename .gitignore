@@ -1,0 +1,19 @@
+# Ignore ONLY the huge TCGA raw data files
+data/TCGA-LUAD.star_tpm.tsv
+data/TCGA-LUSC.star_tpm.tsv
+data/expression.csv
+
+# Allow all other data files
+!data/
+!data/*.tsv
+!data/*.csv
+
+# Allow model files
+!results/
+!results/*.pkl
+!results/*.npy
+!results/*.csv
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+

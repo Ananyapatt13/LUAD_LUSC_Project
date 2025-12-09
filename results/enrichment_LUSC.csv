@@ -1,0 +1,509 @@
+Gene_set,Term,Overlap,P-value,Adjusted P-value,Genes
+GO_Biological_Process_2021,epidermis development (GO:0008544), 21/83,2.0008444017158717e-27,1.016428956071663e-24,CERS3;KRTDAP;SPRR2E;SPRR2F;SPRR3;SPRR2G;CALML5;BNC1;KRT5;KRT31;FOXN1;PTHLH;COL7A1;GJB5;KRT14;SPRR2A;SPRR2B;SPRR1A;SPRR1B;S100A7;SPRR2D
+GO_Biological_Process_2021,keratinocyte differentiation (GO:0030216), 10/41,1.899912613496359e-13,4.825778038280752e-11,CERS3;SPRR2F;SPRR3;SPRR2G;KRT16;SPRR2A;SPRR2B;SPRR1A;SPRR1B;S100A7
+GO_Biological_Process_2021,epidermal cell differentiation (GO:0009913), 10/53,3.0777900018379117e-12,5.211724403112197e-10,CERS3;SPRR2F;SPRR3;SPRR2G;KRT16;SPRR2A;SPRR2B;SPRR1A;SPRR1B;S100A7
+GO_Biological_Process_2021,skin development (GO:0043588), 11/80,9.215782711871591e-12,1.170404404407692e-09,CERS3;SPRR2F;SPRR3;SPRR2G;KRT16;SPRR2A;SPRR2B;SPRR1A;TP63;SPRR1B;S100A7
+GO_Biological_Process_2021,negative regulation of endopeptidase activity (GO:0010951), 8/63,1.3195315738467842e-08,1.3406440790283329e-06,SERPINB3;SERPINB4;ANXA8L1;SERPINB2;SERPINB13;ANXA8;SERPINB7;SERPINB5
+GO_Biological_Process_2021,regulation of endopeptidase activity (GO:0052548), 7/71,6.482442646007186e-07,5.488468106952751e-05,SERPINB3;SERPINB4;SERPINB2;SERPINB13;A2ML1;SERPINB7;SERPINB5
+GO_Biological_Process_2021,negative regulation of peptidase activity (GO:0010466), 6/63,5.171211997952722e-06,0.0003752822421371404,SERPINB3;SERPINB4;SERPINB2;SERPINB13;SERPINB7;SERPINB5
+GO_Biological_Process_2021,peptide cross-linking (GO:0018149), 4/31,6.248011484896508e-05,0.0039674872929092,SPRR2E;PI3;SPRR1A;SPRR1B
+GO_Biological_Process_2021,defense response to bacterium (GO:0042742), 7/176,0.0002438693322276243,0.0137650689746259,GBP6;PGLYRP3;RNASE7;PI3;WFDC5;S100A7;KRT6A
+GO_Biological_Process_2021,regulation of peptidase activity (GO:0052547), 3/23,0.0005365234652347395,0.0272553920339247,SERPINB3;SERPINB4;A2ML1
+GO_Biological_Process_2021,regulation of serine-type endopeptidase activity (GO:1900003), 2/6,0.0007164419611361558,0.0303293763547639,ANXA8L1;ANXA8
+GO_Biological_Process_2021,negative regulation of serine-type peptidase activity (GO:1902572), 2/6,0.0007164419611361558,0.0303293763547639,ANXA8L1;ANXA8
+GO_Biological_Process_2021,intermediate filament bundle assembly (GO:0045110), 2/7,0.000998416556093053,0.0382955813409659,KRT14;PKP1
+GO_Biological_Process_2021,antimicrobial humoral immune response mediated by antimicrobial peptide (GO:0061844), 4/64,0.0010553900369557,0.0382955813409659,PGLYRP3;RNASE7;KRT6A;S100A7
+GO_Biological_Process_2021,negative regulation of phospholipase activity (GO:0010519), 2/8,0.0013251167655955,0.0420724573076582,ANXA8L1;ANXA8
+GO_Biological_Process_2021,regulation of phospholipase A2 activity (GO:0032429), 2/8,0.0013251167655955,0.0420724573076582,ANXA8L1;ANXA8
+GO_Biological_Process_2021,defense response to Gram-positive bacterium (GO:0050830), 4/70,0.0014745533848981,0.0440631246781326,GBP6;PGLYRP3;RNASE7;KRT6A
+GO_Biological_Process_2021,hemidesmosome assembly (GO:0031581), 2/12,0.0030666522479577,0.0865477412201402,KRT14;KRT5
+GO_Biological_Process_2021,antibacterial humoral response (GO:0019731), 3/44,0.0036045538787404,0.0963743879157974,RNASE7;PI3;WFDC5
+GO_Biological_Process_2021,neurotrophin TRK receptor signaling pathway (GO:0048011), 2/15,0.004812150361469,0.122228619181315,NTRK2;HAP1
+GO_Biological_Process_2021,skeletal system development (GO:0001501), 5/158,0.0051227041083579,0.1239206517640868,DLX5;DLX6;EN1;BMP7;PTHLH
+GO_Biological_Process_2021,negative regulation of amyloid-beta formation (GO:1902430), 2/17,0.0061760908407669,0.1417227557671424,NTRK2;HAP1
+GO_Biological_Process_2021,regulation of proteolysis (GO:0030162), 3/54,0.0064165814618981,0.1417227557671424,SERPINB3;SERPINB4;SERPINB13
+GO_Biological_Process_2021,intermediate filament organization (GO:0045109), 2/18,0.0069164024538674,0.1447771516235785,KRT14;PKP1
+GO_Biological_Process_2021,establishment of skin barrier (GO:0061436), 2/19,0.0076948486099146,0.1447771516235785,KRT16;TP63
+GO_Biological_Process_2021,regulation of water loss via skin (GO:0033561), 2/19,0.0076948486099146,0.1447771516235785,KRT16;TP63
+GO_Biological_Process_2021,negative regulation of amyloid precursor protein catabolic process (GO:1902992), 2/19,0.0076948486099146,0.1447771516235785,NTRK2;HAP1
+GO_Biological_Process_2021,oligodendrocyte differentiation (GO:0048709), 2/20,0.0085108669895334,0.1544114439529634,PTPRZ1;ZNF488
+GO_Biological_Process_2021,neurotrophin signaling pathway (GO:0038179), 2/21,0.0093639011818873,0.1640297172551295,NTRK2;HAP1
+GO_Biological_Process_2021,epithelium development (GO:0060429), 4/122,0.0106922535117551,0.1810554927990544,UPK1B;KRT16;RHCG;KRT6A
+GO_Biological_Process_2021,morphogenesis of an epithelium (GO:0002009), 2/30,0.0186179663566616,0.305094416425294,KRT16;KRT6A
+GO_Biological_Process_2021,innate immune response (GO:0045087), 6/302,0.0196950083652644,0.3126582577985726,PGLYRP3;KRT16;RNASE7;PI3;WFDC5;S100A7
+GO_Biological_Process_2021,regulation of amyloid-beta formation (GO:1902003), 2/34,0.02357903433833,0.3250504833046524,NTRK2;HAP1
+GO_Biological_Process_2021,cell-substrate junction assembly (GO:0007044), 2/34,0.02357903433833,0.3250504833046524,KRT14;KRT5
+GO_Biological_Process_2021,peptidyl-tyrosine dephosphorylation (GO:0035335), 2/35,0.0248950472988578,0.3250504833046524,PTPRZ1;DUSP9
+GO_Biological_Process_2021,epithelial cell migration (GO:0010631), 2/41,0.0333910781691019,0.3250504833046524,KRT16;FAT2
+GO_Biological_Process_2021,positive regulation of biomineral tissue development (GO:0070169), 2/41,0.0333910781691019,0.3250504833046524,AMTN;BMP7
+GO_Biological_Process_2021,endosome organization (GO:0007032), 2/41,0.0333910781691019,0.3250504833046524,ANXA8L1;ANXA8
+GO_Biological_Process_2021,neuron differentiation (GO:0030182), 4/174,0.0341054154601292,0.3250504833046524,NTRK2;TENM2;IRX4;EN1
+GO_Biological_Process_2021,amine transport (GO:0015837), 1/5,0.0345166225420593,0.3250504833046524,RHCG
+GO_Biological_Process_2021,fatty acid omega-oxidation (GO:0010430), 1/5,0.0345166225420593,0.3250504833046524,ADH7
+GO_Biological_Process_2021,regulation of adenylate cyclase-activating G protein-coupled receptor signaling pathway (GO:0106070), 1/5,0.0345166225420593,0.3250504833046524,MRAP2
+GO_Biological_Process_2021,histone citrullination (GO:0036414), 1/5,0.0345166225420593,0.3250504833046524,PADI3
+GO_Biological_Process_2021,cellular response to brain-derived neurotrophic factor stimulus (GO:1990416), 1/5,0.0345166225420593,0.3250504833046524,NTRK2
+GO_Biological_Process_2021,positive regulation of non-motile cilium assembly (GO:1902857), 1/5,0.0345166225420593,0.3250504833046524,HAP1
+GO_Biological_Process_2021,regulation of glomerular mesangial cell proliferation (GO:0072124), 1/5,0.0345166225420593,0.3250504833046524,BMP7
+GO_Biological_Process_2021,regulation of heart growth (GO:0060420), 1/5,0.0345166225420593,0.3250504833046524,DUSP9
+GO_Biological_Process_2021,protein citrullination (GO:0018101), 1/5,0.0345166225420593,0.3250504833046524,PADI3
+GO_Biological_Process_2021,negative regulation of proteolysis (GO:0045861), 2/43,0.0364407150634271,0.3250504833046524,SERPINB3;SERPINB4
+GO_Biological_Process_2021,positive regulation of osteoblast differentiation (GO:0045669), 2/44,0.0380043446882265,0.3250504833046524,BMP7;TP63
+GO_Biological_Process_2021,vesicle organization (GO:0016050), 2/46,0.0412070766504708,0.3250504833046524,ANXA8L1;ANXA8
+GO_Biological_Process_2021,equilibrioception (GO:0050957), 1/6,0.041276676899358,0.3250504833046524,USH1G
+GO_Biological_Process_2021,regulation of response to reactive oxygen species (GO:1901031), 1/6,0.041276676899358,0.3250504833046524,BMP7
+GO_Biological_Process_2021,regulation of superoxide metabolic process (GO:0090322), 1/6,0.041276676899358,0.3250504833046524,BMP7
+GO_Biological_Process_2021,positive regulation of non-membrane spanning protein tyrosine kinase activity (GO:1903997), 1/6,0.041276676899358,0.3250504833046524,NTRK2
+GO_Biological_Process_2021,leucine transport (GO:0015820), 1/6,0.041276676899358,0.3250504833046524,SLC6A15
+GO_Biological_Process_2021,regulation of keratinocyte apoptotic process (GO:1902172), 1/6,0.041276676899358,0.3250504833046524,SERPINB13
+GO_Biological_Process_2021,positive regulation of tooth mineralization (GO:0070172), 1/6,0.041276676899358,0.3250504833046524,AMTN
+GO_Biological_Process_2021,regulation of non-motile cilium assembly (GO:1902855), 1/6,0.041276676899358,0.3250504833046524,HAP1
+GO_Biological_Process_2021,proline transport (GO:0015824), 1/6,0.041276676899358,0.3250504833046524,SLC6A15
+GO_Biological_Process_2021,protection from natural killer cell mediated cytotoxicity (GO:0042270), 1/6,0.041276676899358,0.3250504833046524,SERPINB4
+GO_Biological_Process_2021,photoreceptor cell outer segment organization (GO:0035845), 1/6,0.041276676899358,0.3250504833046524,CDHR1
+GO_Biological_Process_2021,negative regulation of MAP kinase activity (GO:0043407), 2/48,0.0445076271319304,0.3250504833046524,SERPINB3;BMP7
+GO_Biological_Process_2021,regulation of protein metabolic process (GO:0051246), 2/48,0.0445076271319304,0.3250504833046524,SERPINB4;SERPINB13
+GO_Biological_Process_2021,chloride transmembrane transport (GO:1902476), 2/50,0.0479026862337682,0.3250504833046524,GABRQ;GABRA3
+GO_Biological_Process_2021,ammonium transport (GO:0015696), 1/7,0.047989736708364,0.3250504833046524,RHCG
+GO_Biological_Process_2021,gap junction assembly (GO:0016264), 1/7,0.047989736708364,0.3250504833046524,GJB6
+GO_Biological_Process_2021,positive regulation of fibroblast apoptotic process (GO:2000271), 1/7,0.047989736708364,0.3250504833046524,TP63
+GO_Biological_Process_2021,cellular ion homeostasis (GO:0006873), 1/7,0.047989736708364,0.3250504833046524,RHCG
+GO_Biological_Process_2021,regulation of entry of bacterium into host cell (GO:2000535), 1/7,0.047989736708364,0.3250504833046524,KRT6A
+GO_Biological_Process_2021,sinoatrial node development (GO:0003163), 1/7,0.047989736708364,0.3250504833046524,GJB6
+GO_Biological_Process_2021,collagen-activated tyrosine kinase receptor signaling pathway (GO:0038063), 1/7,0.047989736708364,0.3250504833046524,COL4A6
+GO_Biological_Process_2021,"positive regulation of synaptic transmission, GABAergic (GO:0032230)", 1/7,0.047989736708364,0.3250504833046524,HAP1
+GO_Biological_Process_2021,regulation of non-membrane spanning protein tyrosine kinase activity (GO:1903995), 1/7,0.047989736708364,0.3250504833046524,NTRK2
+GO_Biological_Process_2021,pericardium morphogenesis (GO:0003344), 1/7,0.047989736708364,0.3250504833046524,BMP7
+GO_Biological_Process_2021,cardiac muscle tissue development (GO:0048738), 2/53,0.0531654153249175,0.3266507289467332,GJB6;BMP7
+GO_Biological_Process_2021,"negative regulation of CD4-positive, alpha-beta T cell proliferation (GO:2000562)", 1/8,0.0546561259064415,0.3266507289467332,LGALS7
+GO_Biological_Process_2021,ammonium transmembrane transport (GO:0072488), 1/8,0.0546561259064415,0.3266507289467332,RHCG
+GO_Biological_Process_2021,negative regulation of mitotic nuclear division (GO:0045839), 1/8,0.0546561259064415,0.3266507289467332,BMP7
+GO_Biological_Process_2021,negative regulation of muscle cell apoptotic process (GO:0010656), 1/8,0.0546561259064415,0.3266507289467332,BMP7
+GO_Biological_Process_2021,negative regulation of striated muscle cell apoptotic process (GO:0010664), 1/8,0.0546561259064415,0.3266507289467332,BMP7
+GO_Biological_Process_2021,positive regulation of oligodendrocyte differentiation (GO:0048714), 1/8,0.0546561259064415,0.3266507289467332,PTPRZ1
+GO_Biological_Process_2021,leukocyte aggregation (GO:0070486), 1/8,0.0546561259064415,0.3266507289467332,BMP7
+GO_Biological_Process_2021,thyroid gland development (GO:0030878), 1/8,0.0546561259064415,0.3266507289467332,FOXE1
+GO_Biological_Process_2021,osteoblast development (GO:0002076), 1/8,0.0546561259064415,0.3266507289467332,PTHLH
+GO_Biological_Process_2021,regulation of cellular response to oxidative stress (GO:1900407), 1/9,0.0612761663405728,0.3347128225915164,BMP7
+GO_Biological_Process_2021,negative regulation of RNA catabolic process (GO:1902369), 1/9,0.0612761663405728,0.3347128225915164,PKP1
+GO_Biological_Process_2021,regulation of fibroblast apoptotic process (GO:2000269), 1/9,0.0612761663405728,0.3347128225915164,TP63
+GO_Biological_Process_2021,collagen-activated signaling pathway (GO:0038065), 1/9,0.0612761663405728,0.3347128225915164,COL4A6
+GO_Biological_Process_2021,cytolysis by host of symbiont cells (GO:0051838), 1/9,0.0612761663405728,0.3347128225915164,KRT6A
+GO_Biological_Process_2021,cytolysis in other organism involved in symbiotic interaction (GO:0051801), 1/9,0.0612761663405728,0.3347128225915164,KRT6A
+GO_Biological_Process_2021,pericardium development (GO:0060039), 1/9,0.0612761663405728,0.3347128225915164,BMP7
+GO_Biological_Process_2021,endochondral ossification (GO:0001958), 1/9,0.0612761663405728,0.3347128225915164,DLX5
+GO_Biological_Process_2021,negative regulation of hydrolase activity (GO:0051346), 2/58,0.0623643076677747,0.3370326414386125,SERPINB3;SERPINB4
+GO_Biological_Process_2021,homophilic cell adhesion via plasma membrane adhesion molecules (GO:0007156), 2/60,0.0661847397731125,0.3446789029135977,IGSF11;FAT2
+GO_Biological_Process_2021,primary alcohol catabolic process (GO:0034310), 1/10,0.0678501777388971,0.3446789029135977,AKR1B10
+GO_Biological_Process_2021,regulation of organ growth (GO:0046620), 1/10,0.0678501777388971,0.3446789029135977,DUSP9
+GO_Biological_Process_2021,morphogenesis of an epithelial sheet (GO:0002011), 1/10,0.0678501777388971,0.3446789029135977,BMP7
+GO_Biological_Process_2021,ectoderm development (GO:0007398), 1/10,0.0678501777388971,0.3446789029135977,KRT6B
+GO_Biological_Process_2021,negative regulation of alpha-beta T cell proliferation (GO:0046642), 1/10,0.0678501777388971,0.3446789029135977,LGALS7
+GO_Biological_Process_2021,neuropeptide signaling pathway (GO:0007218), 2/63,0.0720572215556415,0.3466446483481019,NXPH4;NTS
+GO_Biological_Process_2021,diterpenoid metabolic process (GO:0016101), 2/64,0.0740511255869877,0.3466446483481019,AKR1B10;ADH7
+GO_Biological_Process_2021,positive regulation of dendrite development (GO:1900006), 1/11,0.0743784776967384,0.3466446483481019,BMP7
+GO_Biological_Process_2021,axonal transport of mitochondrion (GO:0019896), 1/11,0.0743784776967384,0.3466446483481019,HAP1
+GO_Biological_Process_2021,"regulation of CD4-positive, alpha-beta T cell proliferation (GO:2000561)", 1/11,0.0743784776967384,0.3466446483481019,LGALS7
+GO_Biological_Process_2021,negative regulation of nuclear division (GO:0051784), 1/11,0.0743784776967384,0.3466446483481019,BMP7
+GO_Biological_Process_2021,"synaptic transmission, GABAergic (GO:0051932)", 1/11,0.0743784776967384,0.3466446483481019,GABRA3
+GO_Biological_Process_2021,mesonephros development (GO:0001823), 1/11,0.0743784776967384,0.3466446483481019,BMP7
+GO_Biological_Process_2021,regulation of microtubule-based movement (GO:0060632), 1/11,0.0743784776967384,0.3466446483481019,HAP1
+GO_Biological_Process_2021,BMP signaling pathway (GO:0030509), 2/65,0.0760626577951925,0.3481065780176378,DLX5;BMP7
+GO_Biological_Process_2021,inorganic anion transmembrane transport (GO:0098661), 2/65,0.0760626577951925,0.3481065780176378,GABRQ;GABRA3
+GO_Biological_Process_2021,cell-cell junction assembly (GO:0007043), 2/66,0.0780914778493693,0.3510904435009398,GJB6;PKP1
+GO_Biological_Process_2021,ethanol oxidation (GO:0006069), 1/12,0.0808613816724605,0.3510904435009398,ADH7
+GO_Biological_Process_2021,negative regulation of JUN kinase activity (GO:0043508), 1/12,0.0808613816724605,0.3510904435009398,SERPINB3
+GO_Biological_Process_2021,histone H3-K9 demethylation (GO:0033169), 1/12,0.0808613816724605,0.3510904435009398,HR
+GO_Biological_Process_2021,thyroid hormone generation (GO:0006590), 1/12,0.0808613816724605,0.3510904435009398,FOXE1
+GO_Biological_Process_2021,mitochondrion distribution (GO:0048311), 1/12,0.0808613816724605,0.3510904435009398,HAP1
+GO_Biological_Process_2021,wound healing (GO:0042060), 2/70,0.0863729643410215,0.3553898380049398,SPRR3;KRT6A
+GO_Biological_Process_2021,"negative regulation of CD4-positive, alpha-beta T cell activation (GO:2000515)", 1/13,0.0872992029804689,0.3553898380049398,LGALS7
+GO_Biological_Process_2021,endochondral bone morphogenesis (GO:0060350), 1/13,0.0872992029804689,0.3553898380049398,DLX5
+GO_Biological_Process_2021,negative regulation of neuron apoptotic process (GO:0043524), 2/71,0.0884832523264598,0.3553898380049398,NTRK2;PTPRZ1
+GO_Biological_Process_2021,cellular response to BMP stimulus (GO:0071773), 2/71,0.0884832523264598,0.3553898380049398,DLX5;BMP7
+GO_Biological_Process_2021,defense response to Gram-negative bacterium (GO:0050829), 2/73,0.0927494903562878,0.3553898380049398,RNASE7;S100A7
+GO_Biological_Process_2021,negative regulation of cartilage development (GO:0061037), 1/14,0.0936922528045293,0.3553898380049398,PTHLH
+GO_Biological_Process_2021,positive regulation of brown fat cell differentiation (GO:0090336), 1/14,0.0936922528045293,0.3553898380049398,BMP7
+GO_Biological_Process_2021,cAMP metabolic process (GO:0046058), 1/14,0.0936922528045293,0.3553898380049398,PTHLH
+GO_Biological_Process_2021,neuromuscular process controlling balance (GO:0050885), 1/14,0.0936922528045293,0.3553898380049398,USH1G
+GO_Biological_Process_2021,thymus development (GO:0048538), 1/14,0.0936922528045293,0.3553898380049398,FOXE1
+GO_Biological_Process_2021,positive regulation of T cell chemotaxis (GO:0010820), 1/14,0.0936922528045293,0.3553898380049398,S100A7
+GO_Biological_Process_2021,defense response to protozoan (GO:0042832), 1/14,0.0936922528045293,0.3553898380049398,GBP6
+GO_Biological_Process_2021,detection of bacterium (GO:0016045), 1/14,0.0936922528045293,0.3553898380049398,PGLYRP3
+GO_Biological_Process_2021,chloride transport (GO:0006821), 2/76,0.0992583435338061,0.3553898380049398,GABRQ;GABRA3
+GO_Biological_Process_2021,cellular response to growth factor stimulus (GO:0071363), 3/158,0.0994326169783347,0.3553898380049398,NTRK2;DLX5;BMP7
+GO_Biological_Process_2021,negative regulation of chondrocyte differentiation (GO:0032331), 1/15,0.1000408402258,0.3553898380049398,PTHLH
+GO_Biological_Process_2021,"regulation of synaptic transmission, GABAergic (GO:0032228)", 1/15,0.1000408402258,0.3553898380049398,HAP1
+GO_Biological_Process_2021,fibrinolysis (GO:0042730), 1/15,0.1000408402258,0.3553898380049398,SERPINB2
+GO_Biological_Process_2021,regulation of T cell chemotaxis (GO:0010819), 1/15,0.1000408402258,0.3553898380049398,S100A7
+GO_Biological_Process_2021,response to ethanol (GO:0045471), 1/15,0.1000408402258,0.3553898380049398,ADH7
+GO_Biological_Process_2021,positive regulation of heterotypic cell-cell adhesion (GO:0034116), 1/15,0.1000408402258,0.3553898380049398,BMP7
+GO_Biological_Process_2021,steroid hormone mediated signaling pathway (GO:0043401), 1/15,0.1000408402258,0.3553898380049398,BMP7
+GO_Biological_Process_2021,central nervous system neuron development (GO:0021954), 1/15,0.1000408402258,0.3553898380049398,NTRK2
+GO_Biological_Process_2021,peptidyl-arginine modification (GO:0018195), 1/15,0.1000408402258,0.3553898380049398,PADI3
+GO_Biological_Process_2021,photoreceptor cell development (GO:0042461), 1/15,0.1000408402258,0.3553898380049398,CDHR1
+GO_Biological_Process_2021,negative regulation of natural killer cell mediated cytotoxicity (GO:0045953), 1/16,0.1063452722007835,0.3601559885199868,SERPINB4
+GO_Biological_Process_2021,retrograde axonal transport (GO:0008090), 1/16,0.1063452722007835,0.3601559885199868,HAP1
+GO_Biological_Process_2021,killing by host of symbiont cells (GO:0051873), 1/16,0.1063452722007835,0.3601559885199868,KRT6A
+GO_Biological_Process_2021,mesenchyme development (GO:0060485), 1/16,0.1063452722007835,0.3601559885199868,BMP7
+GO_Biological_Process_2021,transepithelial transport (GO:0070633), 1/16,0.1063452722007835,0.3601559885199868,RHCG
+GO_Biological_Process_2021,odontogenesis of dentin-containing tooth (GO:0042475), 1/16,0.1063452722007835,0.3601559885199868,AMTN
+GO_Biological_Process_2021,oligodendrocyte development (GO:0014003), 1/16,0.1063452722007835,0.3601559885199868,ZNF488
+GO_Biological_Process_2021,positive regulation of cell differentiation (GO:0045597), 4/258,0.107734642741106,0.3624450232614693,SERPINB3;FOXN1;BMP7;TP63
+GO_Biological_Process_2021,mesonephric tubule development (GO:0072164), 1/17,0.1126058536126832,0.3670422560555816,BMP7
+GO_Biological_Process_2021,pharyngeal system development (GO:0060037), 1/17,0.1126058536126832,0.3670422560555816,BMP7
+GO_Biological_Process_2021,regulation of osteoblast differentiation (GO:0045667), 2/83,0.1149147584300991,0.3670422560555816,BMP7;TP63
+GO_Biological_Process_2021,cell-cell adhesion via plasma-membrane adhesion molecules (GO:0098742), 3/170,0.1169823090456747,0.3670422560555816,IGSF11;TENM2;FAT2
+GO_Biological_Process_2021,regulation of transcription by RNA polymerase I (GO:0006356), 1/18,0.118822887239702,0.3670422560555816,BNC1
+GO_Biological_Process_2021,regulation of brown fat cell differentiation (GO:0090335), 1/18,0.118822887239702,0.3670422560555816,BMP7
+GO_Biological_Process_2021,regulation of cartilage development (GO:0061035), 1/18,0.118822887239702,0.3670422560555816,PTHLH
+GO_Biological_Process_2021,positive regulation of glial cell differentiation (GO:0045687), 1/18,0.118822887239702,0.3670422560555816,PTPRZ1
+GO_Biological_Process_2021,regulation of delayed rectifier potassium channel activity (GO:1902259), 1/18,0.118822887239702,0.3670422560555816,KCNG1
+GO_Biological_Process_2021,positive regulation of lymphocyte chemotaxis (GO:0140131), 1/18,0.118822887239702,0.3670422560555816,S100A7
+GO_Biological_Process_2021,negative regulation of cellular amide metabolic process (GO:0034249), 2/86,0.1218070679235351,0.3670422560555816,NTRK2;HAP1
+GO_Biological_Process_2021,ethanol metabolic process (GO:0006067), 1/19,0.1249966738142039,0.3670422560555816,ADH7
+GO_Biological_Process_2021,positive regulation of cilium assembly (GO:0045724), 1/19,0.1249966738142039,0.3670422560555816,HAP1
+GO_Biological_Process_2021,positive regulation of G protein-coupled receptor signaling pathway (GO:0045745), 1/19,0.1249966738142039,0.3670422560555816,MRAP2
+GO_Biological_Process_2021,branching involved in ureteric bud morphogenesis (GO:0001658), 1/19,0.1249966738142039,0.3670422560555816,HOXD11
+GO_Biological_Process_2021,heart trabecula morphogenesis (GO:0061384), 1/19,0.1249966738142039,0.3670422560555816,BMP7
+GO_Biological_Process_2021,regulation of epithelial cell differentiation (GO:0030856), 1/19,0.1249966738142039,0.3670422560555816,FOXN1
+GO_Biological_Process_2021,positive regulation of monocyte chemotaxis (GO:0090026), 1/19,0.1249966738142039,0.3670422560555816,S100A7
+GO_Biological_Process_2021,ureteric bud development (GO:0001657), 1/19,0.1249966738142039,0.3670422560555816,BMP7
+GO_Biological_Process_2021,ureteric bud morphogenesis (GO:0060675), 1/19,0.1249966738142039,0.3670422560555816,HOXD11
+GO_Biological_Process_2021,mitochondrion localization (GO:0051646), 1/19,0.1249966738142039,0.3670422560555816,HAP1
+GO_Biological_Process_2021,regulation of oligodendrocyte differentiation (GO:0048713), 1/19,0.1249966738142039,0.3670422560555816,PTPRZ1
+GO_Biological_Process_2021,positive regulation of neuron projection development (GO:0010976), 2/88,0.1264572635549221,0.3691970683097727,NTRK2;BMP7
+GO_Biological_Process_2021,collagen fibril organization (GO:0030199), 2/89,0.1287981667440273,0.3721384138533264,COL7A1;COL4A6
+GO_Biological_Process_2021,positive regulation of epithelial cell differentiation (GO:0030858), 1/20,0.1311275119680028,0.3721384138533264,FOXN1
+GO_Biological_Process_2021,regulation of granulocyte chemotaxis (GO:0071622), 1/20,0.1311275119680028,0.3721384138533264,S100A7
+GO_Biological_Process_2021,dopaminergic neuron differentiation (GO:0071542), 1/20,0.1311275119680028,0.3721384138533264,EN1
+GO_Biological_Process_2021,energy reserve metabolic process (GO:0006112), 1/20,0.1311275119680028,0.3721384138533264,MRAP2
+GO_Biological_Process_2021,positive regulation of macromolecule metabolic process (GO:0010604), 5/384,0.1327253966768317,0.3745805639546141,NTRK2;PKP1;IL36G;LGALS7;BMP7
+GO_Biological_Process_2021,retinoid metabolic process (GO:0001523), 2/92,0.1358810155911706,0.3747611546292853,AKR1B10;ADH7
+GO_Biological_Process_2021,retinol metabolic process (GO:0042572), 1/21,0.1372156983485178,0.3747611546292853,ADH7
+GO_Biological_Process_2021,negative regulation of protein localization to cell periphery (GO:1904376), 1/21,0.1372156983485178,0.3747611546292853,MRAP2
+GO_Biological_Process_2021,negative regulation of protein localization to plasma membrane (GO:1903077), 1/21,0.1372156983485178,0.3747611546292853,MRAP2
+GO_Biological_Process_2021,cellular response to steroid hormone stimulus (GO:0071383), 1/21,0.1372156983485178,0.3747611546292853,BMP7
+GO_Biological_Process_2021,positive regulation of transcription from RNA polymerase II promoter involved in cellular response to chemical stimulus (GO:1901522), 1/21,0.1372156983485178,0.3747611546292853,DLX5
+GO_Biological_Process_2021,negative regulation of MAPK cascade (GO:0043409), 2/94,0.1406505227980997,0.3754414316254684,DUSP9;BMP7
+GO_Biological_Process_2021,positive regulation of calcium ion transmembrane transporter activity (GO:1901021), 1/22,0.1432615275311786,0.3754414316254684,HAP1
+GO_Biological_Process_2021,positive regulation of granulocyte chemotaxis (GO:0071624), 1/22,0.1432615275311786,0.3754414316254684,S100A7
+GO_Biological_Process_2021,negative regulation of phosphate metabolic process (GO:0045936), 1/22,0.1432615275311786,0.3754414316254684,BMP7
+GO_Biological_Process_2021,cellular response to nerve growth factor stimulus (GO:1990090), 1/22,0.1432615275311786,0.3754414316254684,NTRK2
+GO_Biological_Process_2021,positive regulation of peptidase activity (GO:0010952), 1/22,0.1432615275311786,0.3754414316254684,SERPINB3
+GO_Biological_Process_2021,peptidyl-threonine dephosphorylation (GO:0035970), 1/22,0.1432615275311786,0.3754414316254684,DUSP9
+GO_Biological_Process_2021,negative regulation of G protein-coupled receptor signaling pathway (GO:0045744), 1/23,0.1492652920740199,0.3754414316254684,MRAP2
+GO_Biological_Process_2021,positive regulation of transcription by RNA polymerase I (GO:0045943), 1/23,0.1492652920740199,0.3754414316254684,BNC1
+GO_Biological_Process_2021,regulation of neural precursor cell proliferation (GO:2000177), 1/23,0.1492652920740199,0.3754414316254684,PTPRZ1
+GO_Biological_Process_2021,vesicle transport along microtubule (GO:0047496), 1/23,0.1492652920740199,0.3754414316254684,HAP1
+GO_Biological_Process_2021,negative regulation of neuron death (GO:1901215), 2/98,0.1502950331732688,0.3754414316254684,NTRK2;PTPRZ1
+GO_Biological_Process_2021,regulation of neuron apoptotic process (GO:0043523), 2/98,0.1502950331732688,0.3754414316254684,NTRK2;PTPRZ1
+GO_Biological_Process_2021,negative regulation of neuron differentiation (GO:0045665), 1/24,0.1552272825349906,0.3754414316254684,BMP7
+GO_Biological_Process_2021,negative regulation of NIK/NF-kappaB signaling (GO:1901223), 1/24,0.1552272825349906,0.3754414316254684,BMP7
+GO_Biological_Process_2021,defense response to fungus (GO:0050832), 1/24,0.1552272825349906,0.3754414316254684,RNASE7
+GO_Biological_Process_2021,dorsal/ventral pattern formation (GO:0009953), 1/24,0.1552272825349906,0.3754414316254684,HOXD11
+GO_Biological_Process_2021,endocrine system development (GO:0035270), 1/24,0.1552272825349906,0.3754414316254684,FOXE1
+GO_Biological_Process_2021,epithelial cell differentiation (GO:0030855), 2/101,0.1576133292006472,0.3754414316254684,UPK1B;RHCG
+GO_Biological_Process_2021,positive regulation of ERBB signaling pathway (GO:1901186), 1/25,0.1611477875160956,0.3754414316254684,HAP1
+GO_Biological_Process_2021,cardiac conduction system development (GO:0003161), 1/25,0.1611477875160956,0.3754414316254684,GJB6
+GO_Biological_Process_2021,regulation of epidermal cell differentiation (GO:0045604), 1/25,0.1611477875160956,0.3754414316254684,SERPINB13
+GO_Biological_Process_2021,positive regulation of peptidyl-threonine phosphorylation (GO:0010800), 1/25,0.1611477875160956,0.3754414316254684,BMP7
+GO_Biological_Process_2021,regulation of heterotypic cell-cell adhesion (GO:0034114), 1/25,0.1611477875160956,0.3754414316254684,BMP7
+GO_Biological_Process_2021,positive regulation of T cell migration (GO:2000406), 1/25,0.1611477875160956,0.3754414316254684,S100A7
+GO_Biological_Process_2021,energy derivation by oxidation of organic compounds (GO:0015980), 1/25,0.1611477875160956,0.3754414316254684,MRAP2
+GO_Biological_Process_2021,negative regulation of cell development (GO:0010721), 1/26,0.1670270935971572,0.3754414316254684,PTHLH
+GO_Biological_Process_2021,glial cell development (GO:0021782), 1/26,0.1670270935971572,0.3754414316254684,ZNF488
+GO_Biological_Process_2021,regulation of biomineral tissue development (GO:0070167), 1/26,0.1670270935971572,0.3754414316254684,AMTN
+GO_Biological_Process_2021,positive regulation of filopodium assembly (GO:0051491), 1/26,0.1670270935971572,0.3754414316254684,TENM2
+GO_Biological_Process_2021,regulation of chondrocyte differentiation (GO:0032330), 1/26,0.1670270935971572,0.3754414316254684,PTHLH
+GO_Biological_Process_2021,histone lysine demethylation (GO:0070076), 1/26,0.1670270935971572,0.3754414316254684,HR
+GO_Biological_Process_2021,retinoic acid metabolic process (GO:0042573), 1/26,0.1670270935971572,0.3754414316254684,ADH7
+GO_Biological_Process_2021,negative regulation of protein localization to membrane (GO:1905476), 1/26,0.1670270935971572,0.3754414316254684,MRAP2
+GO_Biological_Process_2021,positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway (GO:1900740), 1/26,0.1670270935971572,0.3754414316254684,TP63
+GO_Biological_Process_2021,metanephros development (GO:0001656), 1/26,0.1670270935971572,0.3754414316254684,BMP7
+GO_Biological_Process_2021,regulation of monocyte chemotaxis (GO:0090025), 1/26,0.1670270935971572,0.3754414316254684,S100A7
+GO_Biological_Process_2021,regulation of myelination (GO:0031641), 1/26,0.1670270935971572,0.3754414316254684,PTPRZ1
+GO_Biological_Process_2021,regulation of potassium ion transmembrane transporter activity (GO:1901016), 1/26,0.1670270935971572,0.3754414316254684,KCNG1
+GO_Biological_Process_2021,regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway (GO:1900739), 1/26,0.1670270935971572,0.3754414316254684,TP63
+GO_Biological_Process_2021,generation of neurons (GO:0048699), 3/202,0.1686553536226232,0.3774313640541524,NTRK2;IRX4;EN1
+GO_Biological_Process_2021,negative regulation of catalytic activity (GO:0043086), 1/27,0.1728654854017687,0.3851564323863969,SERPINB3
+GO_Biological_Process_2021,neutral amino acid transport (GO:0015804), 1/28,0.1786632456151985,0.3946127337935689,SLC6A15
+GO_Biological_Process_2021,regulation of multicellular organismal development (GO:2000026), 1/28,0.1786632456151985,0.3946127337935689,DUSP9
+GO_Biological_Process_2021,glial cell differentiation (GO:0010001), 1/29,0.1844206549824222,0.4020845181591008,PTPRZ1
+GO_Biological_Process_2021,negative regulation of interferon-gamma production (GO:0032689), 1/29,0.1844206549824222,0.4020845181591008,LGALS7
+GO_Biological_Process_2021,negative regulation of mRNA catabolic process (GO:1902373), 1/29,0.1844206549824222,0.4020845181591008,PKP1
+GO_Biological_Process_2021,positive regulation of endopeptidase activity (GO:0010950), 1/30,0.1901379923342801,0.4075531650034359,SERPINB3
+GO_Biological_Process_2021,response to alcohol (GO:0097305), 1/30,0.1901379923342801,0.4075531650034359,ADH7
+GO_Biological_Process_2021,ion homeostasis (GO:0050801), 1/30,0.1901379923342801,0.4075531650034359,RHCG
+GO_Biological_Process_2021,maintenance of blood-brain barrier (GO:0035633), 1/30,0.1901379923342801,0.4075531650034359,GJB6
+GO_Biological_Process_2021,positive regulation of mononuclear cell migration (GO:0071677), 1/31,0.1958155345491977,0.4162104248995501,S100A7
+GO_Biological_Process_2021,organelle transport along microtubule (GO:0072384), 1/31,0.1958155345491977,0.4162104248995501,HAP1
+GO_Biological_Process_2021,adenylate cyclase-activating G protein-coupled receptor signaling pathway (GO:0007189), 2/118,0.2001632107565454,0.4228859784238193,S1PR5;PTHLH
+GO_Biological_Process_2021,activation of phospholipase C activity (GO:0007202), 1/32,0.2014535566507171,0.4228859784238193,NTRK2
+GO_Biological_Process_2021,endodermal cell differentiation (GO:0035987), 1/32,0.2014535566507171,0.4228859784238193,COL7A1
+GO_Biological_Process_2021,nervous system development (GO:0007399), 5/447,0.2045663975515436,0.427348374674537,PTPRZ1;DLX5;DLX6;ADAM23;HAP1
+GO_Biological_Process_2021,cytoskeleton organization (GO:0007010), 2/120,0.2052618177570611,0.427348374674537,KRT16;KRT13
+GO_Biological_Process_2021,negative regulation of JNK cascade (GO:0046329), 1/33,0.207052331764463,0.4275714818550701,SERPINB3
+GO_Biological_Process_2021,primary alcohol metabolic process (GO:0034308), 1/33,0.207052331764463,0.4275714818550701,ADH7
+GO_Biological_Process_2021,positive regulation of epidermal growth factor receptor signaling pathway (GO:0045742), 1/34,0.2126121311159233,0.4285990579638454,HAP1
+GO_Biological_Process_2021,positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway (GO:1901030), 1/34,0.2126121311159233,0.4285990579638454,TP63
+GO_Biological_Process_2021,striated muscle tissue development (GO:0014706), 1/34,0.2126121311159233,0.4285990579638454,BMP7
+GO_Biological_Process_2021,central nervous system neuron differentiation (GO:0021953), 1/34,0.2126121311159233,0.4285990579638454,NTRK2
+GO_Biological_Process_2021,regulation of keratinocyte differentiation (GO:0045616), 1/34,0.2126121311159233,0.4285990579638454,SERPINB13
+GO_Biological_Process_2021,positive regulation of release of sequestered calcium ion into cytosol (GO:0051281), 1/34,0.2126121311159233,0.4285990579638454,HAP1
+GO_Biological_Process_2021,regulation of JUN kinase activity (GO:0043506), 1/35,0.2181332241144601,0.4345555994123362,SERPINB3
+GO_Biological_Process_2021,positive regulation of reproductive process (GO:2000243), 1/35,0.2181332241144601,0.4345555994123362,BNC1
+GO_Biological_Process_2021,regulation of postsynaptic membrane potential (GO:0060078), 1/35,0.2181332241144601,0.4345555994123362,GABRA3
+GO_Biological_Process_2021,positive regulation of bone mineralization (GO:0030501), 1/36,0.2236158782781523,0.4402979308732612,BMP7
+GO_Biological_Process_2021,axonal transport (GO:0098930), 1/36,0.2236158782781523,0.4402979308732612,HAP1
+GO_Biological_Process_2021,endoderm formation (GO:0001706), 1/36,0.2236158782781523,0.4402979308732612,COL7A1
+GO_Biological_Process_2021,anterograde axonal transport (GO:0008089), 1/37,0.2290603593240668,0.447548702063946,HAP1
+GO_Biological_Process_2021,negative regulation of epithelial cell apoptotic process (GO:1904036), 1/37,0.2290603593240668,0.447548702063946,SERPINB13
+GO_Biological_Process_2021,regulation of ERK1 and ERK2 cascade (GO:0070372), 3/238,0.2329772992528724,0.4534577318791539,NTRK2;DUSP9;S100A7
+GO_Biological_Process_2021,transmembrane receptor protein serine/threonine kinase signaling pathway (GO:0007178), 2/133,0.2386919954833755,0.4546142339807859,DLX5;BMP7
+GO_Biological_Process_2021,positive regulation of cell population proliferation (GO:0008284), 5/474,0.2387217115575513,0.4546142339807859,SERPINB3;NTRK2;BNC1;PTHLH;KRT6A
+GO_Biological_Process_2021,regulation of dendrite development (GO:0050773), 1/39,0.2398358557221469,0.4546142339807859,BMP7
+GO_Biological_Process_2021,regulation of intracellular transport (GO:0032386), 1/39,0.2398358557221469,0.4546142339807859,HAP1
+GO_Biological_Process_2021,odontogenesis (GO:0042476), 1/39,0.2398358557221469,0.4546142339807859,AMTN
+GO_Biological_Process_2021,vesicle cytoskeletal trafficking (GO:0099518), 1/39,0.2398358557221469,0.4546142339807859,HAP1
+GO_Biological_Process_2021,regulation of peptidyl-threonine phosphorylation (GO:0010799), 1/39,0.2398358557221469,0.4546142339807859,BMP7
+GO_Biological_Process_2021,anterograde trans-synaptic signaling (GO:0098916), 3/244,0.2441247059032836,0.4578861612750843,GABRQ;GABRA3;HAP1
+GO_Biological_Process_2021,negative regulation of blood coagulation (GO:0030195), 1/40,0.2451673934386278,0.4578861612750843,SERPINB2
+GO_Biological_Process_2021,positive regulation of cation channel activity (GO:2001259), 1/40,0.2451673934386278,0.4578861612750843,HAP1
+GO_Biological_Process_2021,positive regulation of ossification (GO:0045778), 1/40,0.2451673934386278,0.4578861612750843,BMP7
+GO_Biological_Process_2021,positive regulation of gene expression (GO:0010628), 5/482,0.2491385112668633,0.462296885663415,NTRK2;PKP1;IL36G;LGALS7;BMP7
+GO_Biological_Process_2021,regulation of filopodium assembly (GO:0051489), 1/41,0.2504618027261238,0.462296885663415,TENM2
+GO_Biological_Process_2021,JNK cascade (GO:0007254), 1/41,0.2504618027261238,0.462296885663415,DUSP9
+GO_Biological_Process_2021,protein dephosphorylation (GO:0006470), 2/139,0.2542271115501414,0.462296885663415,PTPRZ1;DUSP9
+GO_Biological_Process_2021,positive regulation of epithelial to mesenchymal transition (GO:0010718), 1/42,0.2557193402980701,0.462296885663415,SERPINB3
+GO_Biological_Process_2021,heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules (GO:0007157), 1/42,0.2557193402980701,0.462296885663415,TENM2
+GO_Biological_Process_2021,ceramide biosynthetic process (GO:0046513), 1/42,0.2557193402980701,0.462296885663415,CERS3
+GO_Biological_Process_2021,positive regulation of protein tyrosine kinase activity (GO:0061098), 1/42,0.2557193402980701,0.462296885663415,NTRK2
+GO_Biological_Process_2021,regulation of nervous system development (GO:0051960), 1/42,0.2557193402980701,0.462296885663415,PTPRZ1
+GO_Biological_Process_2021,positive regulation of axonogenesis (GO:0050772), 1/43,0.2609402610746575,0.4684015993848977,NTRK2
+GO_Biological_Process_2021,positive regulation of phospholipase C activity (GO:0010863), 1/43,0.2609402610746575,0.4684015993848977,NTRK2
+GO_Biological_Process_2021,neuron development (GO:0048666), 2/143,0.2645985920957099,0.4694146101268105,NTRK2;TENM2
+GO_Biological_Process_2021,nitrogen compound transport (GO:0071705), 2/143,0.2645985920957099,0.4694146101268105,SLC6A15;RHCG
+GO_Biological_Process_2021,branching morphogenesis of an epithelial tube (GO:0048754), 1/44,0.2661248183396091,0.4694146101268105,HOXD11
+GO_Biological_Process_2021,neurogenesis (GO:0022008), 1/44,0.2661248183396091,0.4694146101268105,HAP1
+GO_Biological_Process_2021,embryonic organ morphogenesis (GO:0048562), 1/44,0.2661248183396091,0.4694146101268105,FOXE1
+GO_Biological_Process_2021,positive regulation of Notch signaling pathway (GO:0045747), 1/45,0.2712732634608439,0.476840200131864,TP63
+GO_Biological_Process_2021,interleukin-12-mediated signaling pathway (GO:0035722), 1/46,0.2763858462398367,0.4841517582408173,SERPINB2
+GO_Biological_Process_2021,epidermal growth factor receptor signaling pathway (GO:0007173), 1/47,0.2814628146498205,0.4863371083064926,FAM83B
+GO_Biological_Process_2021,epithelial to mesenchymal transition (GO:0001837), 1/47,0.2814628146498205,0.4863371083064926,BMP7
+GO_Biological_Process_2021,positive regulation of cell-cell adhesion (GO:0022409), 1/47,0.2814628146498205,0.4863371083064926,BMP7
+GO_Biological_Process_2021,positive regulation of pathway-restricted SMAD protein phosphorylation (GO:0010862), 1/47,0.2814628146498205,0.4863371083064926,BMP7
+GO_Biological_Process_2021,negative regulation of mitotic cell cycle (GO:0045930), 1/48,0.2865044149796206,0.4917035230055651,BMP7
+GO_Biological_Process_2021,cellular response to interleukin-12 (GO:0071349), 1/48,0.2865044149796206,0.4917035230055651,SERPINB2
+GO_Biological_Process_2021,central nervous system development (GO:0007417), 3/268,0.2894410262324101,0.4950708462157048,PTPRZ1;ADAM23;HAP1
+GO_Biological_Process_2021,dephosphorylation (GO:0016311), 2/153,0.2905179677474917,0.4952453946836436,PTPRZ1;DUSP9
+GO_Biological_Process_2021,amino acid transport (GO:0006865), 1/50,0.2964824884084789,0.4987550568779035,SLC6A15
+GO_Biological_Process_2021,negative regulation of ERK1 and ERK2 cascade (GO:0070373), 1/50,0.2964824884084789,0.4987550568779035,DUSP9
+GO_Biological_Process_2021,neuron migration (GO:0001764), 1/50,0.2964824884084789,0.4987550568779035,NTRK2
+GO_Biological_Process_2021,inorganic cation transmembrane transport (GO:0098662), 3/274,0.3008899074074589,0.4987550568779035,KCNG1;SLC6A15;RHCG
+GO_Biological_Process_2021,regulation of axonogenesis (GO:0050770), 1/51,0.3014194457200972,0.4987550568779035,NTRK2
+GO_Biological_Process_2021,positive regulation of fat cell differentiation (GO:0045600), 1/51,0.3014194457200972,0.4987550568779035,BMP7
+GO_Biological_Process_2021,sensory perception (GO:0007600), 1/51,0.3014194457200972,0.4987550568779035,USH1G
+GO_Biological_Process_2021,mesenchymal cell differentiation (GO:0048762), 1/51,0.3014194457200972,0.4987550568779035,BMP7
+GO_Biological_Process_2021,response to lipopolysaccharide (GO:0032496), 2/159,0.3060250414865665,0.4987550568779035,IL36G;S100A7
+GO_Biological_Process_2021,ameboidal-type cell migration (GO:0001667), 1/52,0.3063220034368226,0.4987550568779035,FAT2
+GO_Biological_Process_2021,amide biosynthetic process (GO:0043604), 1/52,0.3063220034368226,0.4987550568779035,CERS3
+GO_Biological_Process_2021,regulation of exocytosis (GO:0017157), 1/52,0.3063220034368226,0.4987550568779035,HAP1
+GO_Biological_Process_2021,endocytic recycling (GO:0032456), 1/52,0.3063220034368226,0.4987550568779035,SNX31
+GO_Biological_Process_2021,plasma membrane bounded cell projection morphogenesis (GO:0120039), 1/52,0.3063220034368226,0.4987550568779035,BMP7
+GO_Biological_Process_2021,positive regulation of leukocyte chemotaxis (GO:0002690), 1/54,0.3160248704252871,0.5129093743643637,S100A7
+GO_Biological_Process_2021,ceramide metabolic process (GO:0006672), 1/55,0.3208256507511988,0.5184341679559046,CERS3
+GO_Biological_Process_2021,adenylate cyclase-modulating G protein-coupled receptor signaling pathway (GO:0007188), 2/165,0.3214700057206888,0.5184341679559046,S1PR5;PTHLH
+GO_Biological_Process_2021,positive regulation of establishment of protein localization to mitochondrion (GO:1903749), 1/56,0.3255929736406137,0.5234216158526321,TP63
+GO_Biological_Process_2021,regulation of bone mineralization (GO:0030500), 1/57,0.3303270706095505,0.5260380936352717,BMP7
+GO_Biological_Process_2021,carboxylic acid transport (GO:0046942), 1/57,0.3303270706095505,0.5260380936352717,SLC6A15
+GO_Biological_Process_2021,regulation of mitotic nuclear division (GO:0007088), 1/57,0.3303270706095505,0.5260380936352717,BMP7
+GO_Biological_Process_2021,chordate embryonic development (GO:0043009), 1/58,0.3350281715650445,0.5277242337679403,BMP7
+GO_Biological_Process_2021,membrane lipid biosynthetic process (GO:0046467), 1/58,0.3350281715650445,0.5277242337679403,CERS3
+GO_Biological_Process_2021,regulation of pathway-restricted SMAD protein phosphorylation (GO:0060393), 1/58,0.3350281715650445,0.5277242337679403,BMP7
+GO_Biological_Process_2021,positive regulation of ERK1 and ERK2 cascade (GO:0070374), 2/172,0.3393824716877955,0.5277242337679403,NTRK2;S100A7
+GO_Biological_Process_2021,negative regulation of autophagy (GO:0010507), 1/59,0.3396965048073159,0.5277242337679403,DAPL1
+GO_Biological_Process_2021,regulation of secretion by cell (GO:1903530), 1/59,0.3396965048073159,0.5277242337679403,HAP1
+GO_Biological_Process_2021,fatty acid oxidation (GO:0019395), 1/59,0.3396965048073159,0.5277242337679403,ADH7
+GO_Biological_Process_2021,response to reactive oxygen species (GO:0000302), 1/59,0.3396965048073159,0.5277242337679403,S100A7
+GO_Biological_Process_2021,regulation of gene expression (GO:0010468), 9/1079,0.3433036565732578,0.5317020046927287,NTRK2;BNC1;PKP1;IL36G;HOXD13;LGALS7;ZNF488;BMP7;PTHLH
+GO_Biological_Process_2021,cation transport (GO:0006812), 2/174,0.3444751593385071,0.5318947749056584,KCNG1;RHCG
+GO_Biological_Process_2021,response to light stimulus (GO:0009416), 1/61,0.3489357737922681,0.5371496154135521,SERPINB13
+GO_Biological_Process_2021,extracellular matrix organization (GO:0030198), 3/300,0.3506479997263244,0.5381546340210659,CAPNS2;COL7A1;COL4A6
+GO_Biological_Process_2021,positive regulation of developmental process (GO:0051094), 2/177,0.3520906978957507,0.5387411883465102,AMTN;BMP7
+GO_Biological_Process_2021,stress-activated MAPK cascade (GO:0051403), 1/62,0.3535071583799321,0.5392841935645811,DUSP9
+GO_Biological_Process_2021,COPII vesicle coating (GO:0048208), 1/63,0.358046673018841,0.541332469921343,COL7A1
+GO_Biological_Process_2021,vesicle coating (GO:0006901), 1/63,0.358046673018841,0.541332469921343,COL7A1
+GO_Biological_Process_2021,"vesicle targeting, rough ER to cis-Golgi (GO:0048207)", 1/63,0.358046673018841,0.541332469921343,COL7A1
+GO_Biological_Process_2021,chemical synaptic transmission (GO:0007268), 3/306,0.362106628587613,0.5449044540574095,GABRQ;GABRA3;HAP1
+GO_Biological_Process_2021,negative regulation of cell cycle process (GO:0010948), 1/64,0.3625545383295362,0.5449044540574095,BMP7
+GO_Biological_Process_2021,ERBB signaling pathway (GO:0038127), 1/66,0.3714761957915194,0.5517833551523155,FAM83B
+GO_Biological_Process_2021,extracellular matrix disassembly (GO:0022617), 1/66,0.3714761957915194,0.5517833551523155,CAPNS2
+GO_Biological_Process_2021,cellular component disassembly (GO:0022411), 1/66,0.3714761957915194,0.5517833551523155,CAPNS2
+GO_Biological_Process_2021,embryonic organ development (GO:0048568), 1/66,0.3714761957915194,0.5517833551523155,FOXE1
+GO_Biological_Process_2021,regulation of epidermal growth factor receptor signaling pathway (GO:0042058), 1/67,0.3758904216181217,0.5567123445539528,HAP1
+GO_Biological_Process_2021,negative regulation of cellular catabolic process (GO:0031330), 1/69,0.3846267403446223,0.5663489394059946,DAPL1
+GO_Biological_Process_2021,cellular response to decreased oxygen levels (GO:0036294), 1/69,0.3846267403446223,0.5663489394059946,BMP7
+GO_Biological_Process_2021,negative regulation of cell differentiation (GO:0045596), 2/191,0.3871998193265827,0.5677765031067402,BMP7;PTHLH
+GO_Biological_Process_2021,kidney development (GO:0001822), 1/70,0.3889492580337511,0.5677765031067402,BMP7
+GO_Biological_Process_2021,COPII-coated vesicle budding (GO:0090114), 1/70,0.3889492580337511,0.5677765031067402,COL7A1
+GO_Biological_Process_2021,gland development (GO:0048732), 1/71,0.3932416286912648,0.5723975569488897,FOXE1
+GO_Biological_Process_2021,regulation of programmed cell death (GO:0043067), 2/194,0.3946192262261107,0.5727616197796122,TP53AIP1;TP63
+GO_Biological_Process_2021,positive regulation of neurogenesis (GO:0050769), 1/72,0.3975040611089466,0.5748796489759936,NTRK2
+GO_Biological_Process_2021,response to molecule of bacterial origin (GO:0002237), 1/73,0.4017367625718065,0.5748796489759936,S100A7
+GO_Biological_Process_2021,regulation of hydrolase activity (GO:0051336), 1/73,0.4017367625718065,0.5748796489759936,NTRK2
+GO_Biological_Process_2021,neurotransmitter transport (GO:0006836), 1/73,0.4017367625718065,0.5748796489759936,SLC6A15
+GO_Biological_Process_2021,positive regulation of synaptic transmission (GO:0050806), 1/73,0.4017367625718065,0.5748796489759936,HAP1
+GO_Biological_Process_2021,cellular response to amino acid starvation (GO:0034198), 1/74,0.4059399389618734,0.5773805651015352,DAPL1
+GO_Biological_Process_2021,sphingolipid biosynthetic process (GO:0030148), 1/74,0.4059399389618734,0.5773805651015352,CERS3
+GO_Biological_Process_2021,endomembrane system organization (GO:0010256), 2/199,0.4068941777684048,0.5773805651015352,ANXA8L1;ANXA8
+GO_Biological_Process_2021,response to amino acid starvation (GO:1990928), 1/75,0.4101137947714476,0.5803281552754745,DAPL1
+GO_Biological_Process_2021,regulation of cell division (GO:0051302), 1/76,0.4142585330872531,0.5813351790285209,TP63
+GO_Biological_Process_2021,cell morphogenesis involved in neuron differentiation (GO:0048667), 1/76,0.4142585330872531,0.5813351790285209,CDHR1
+GO_Biological_Process_2021,regulation of epithelial to mesenchymal transition (GO:0010717), 1/76,0.4142585330872531,0.5813351790285209,SERPINB3
+GO_Biological_Process_2021,purine ribonucleotide metabolic process (GO:0009150), 1/77,0.418374355612485,0.5838850897009407,PTHLH
+GO_Biological_Process_2021,positive regulation of phosphatidylinositol 3-kinase signaling (GO:0014068), 1/77,0.418374355612485,0.5838850897009407,NTRK2
+GO_Biological_Process_2021,negative regulation of protein serine/threonine kinase activity (GO:0071901), 1/78,0.4224614625804619,0.5879737616188347,BMP7
+GO_Biological_Process_2021,negative regulation of NF-kappaB transcription factor activity (GO:0032088), 1/79,0.426520052912036,0.5895406055793833,BMP7
+GO_Biological_Process_2021,regulation of neuron differentiation (GO:0045664), 1/79,0.426520052912036,0.5895406055793833,BMP7
+GO_Biological_Process_2021,negative regulation of cell cycle (GO:0045786), 1/80,0.4305503241534472,0.5895406055793833,BMP7
+GO_Biological_Process_2021,response to interferon-gamma (GO:0034341), 1/80,0.4305503241534472,0.5895406055793833,GBP6
+GO_Biological_Process_2021,regulation of NIK/NF-kappaB signaling (GO:1901222), 1/80,0.4305503241534472,0.5895406055793833,BMP7
+GO_Biological_Process_2021,regulation of protein localization to plasma membrane (GO:1903076), 1/80,0.4305503241534472,0.5895406055793833,MRAP2
+GO_Biological_Process_2021,positive regulation of multicellular organismal process (GO:0051240), 3/345,0.4355106359106542,0.5933348937519118,SERPINB3;AMTN;HAP1
+GO_Biological_Process_2021,neutrophil degranulation (GO:0043312), 4/481,0.4356573137194156,0.5933348937519118,SERPINB3;CALML5;PKP1;S100A7
+GO_Biological_Process_2021,cell-cell junction organization (GO:0045216), 1/82,0.4385266928294213,0.5940574932195894,PKP1
+GO_Biological_Process_2021,regulation of G protein-coupled receptor signaling pathway (GO:0008277), 1/82,0.4385266928294213,0.5940574932195894,MRAP2
+GO_Biological_Process_2021,neutrophil activation involved in immune response (GO:0002283), 4/485,0.4418935296744676,0.5946464939685269,SERPINB3;CALML5;PKP1;S100A7
+GO_Biological_Process_2021,positive regulation of plasma membrane bounded cell projection assembly (GO:0120034), 1/83,0.4424731785828802,0.5946464939685269,TENM2
+GO_Biological_Process_2021,regulation of Notch signaling pathway (GO:0008593), 1/83,0.4424731785828802,0.5946464939685269,TP63
+GO_Biological_Process_2021,positive regulation of cellular process (GO:0048522), 5/625,0.4453895232927214,0.5969315488158018,SERPINB3;NTRK2;BNC1;PTHLH;KRT6A
+GO_Biological_Process_2021,neutrophil mediated immunity (GO:0002446), 4/488,0.4465578716198122,0.5969315488158018,SERPINB3;CALML5;PKP1;S100A7
+GO_Biological_Process_2021,extracellular structure organization (GO:0043062), 2/216,0.4476986616118514,0.5969315488158018,COL7A1;COL4A6
+GO_Biological_Process_2021,external encapsulating structure organization (GO:0045229), 2/217,0.4500509326558499,0.5984970518041146,COL7A1;COL4A6
+GO_Biological_Process_2021,negative regulation of phosphorylation (GO:0042326), 1/86,0.4541481435317654,0.6008001482138982,BMP7
+GO_Biological_Process_2021,regulation of interferon-gamma production (GO:0032649), 1/86,0.4541481435317654,0.6008001482138982,LGALS7
+GO_Biological_Process_2021,sodium ion transmembrane transport (GO:0035725), 1/87,0.4579855995441643,0.604303076801131,SLC6A15
+GO_Biological_Process_2021,sensory perception of mechanical stimulus (GO:0050954), 1/88,0.4617962686989018,0.6077526023291246,USH1G
+GO_Biological_Process_2021,regulation of cation channel activity (GO:2001257), 1/89,0.4655803366115963,0.6111493824255579,KCNG1
+GO_Biological_Process_2021,sodium ion transport (GO:0006814), 1/90,0.4693379877235953,0.614494066400996,SLC6A15
+GO_Biological_Process_2021,sensory perception of sound (GO:0007605), 1/91,0.4730694050363985,0.6177872950089729,USH1G
+GO_Biological_Process_2021,positive regulation of cellular component biogenesis (GO:0044089), 1/92,0.4767747705010831,0.6194413898070338,BMP7
+GO_Biological_Process_2021,positive regulation of transmembrane receptor protein serine/threonine kinase signaling pathway (GO:0090100), 1/92,0.4767747705010831,0.6194413898070338,BMP7
+GO_Biological_Process_2021,inflammatory response (GO:0006954), 2/230,0.4801085667084208,0.6194632189123614,KRT16;IL36G
+GO_Biological_Process_2021,positive regulation of nucleic acid-templated transcription (GO:1903508), 4/511,0.4818966838829126,0.6194632189123614,FOXE1;DLX5;BMP7;TP63
+GO_Biological_Process_2021,apoptotic process (GO:0006915), 2/231,0.4823794025976305,0.6194632189123614,TP53AIP1;TP63
+GO_Biological_Process_2021,negative regulation of cell death (GO:0060548), 1/94,0.4841080667484399,0.6194632189123614,BMP7
+GO_Biological_Process_2021,negative regulation of cellular protein metabolic process (GO:0032269), 1/94,0.4841080667484399,0.6194632189123614,SERPINB3
+GO_Biological_Process_2021,regulation of kinase activity (GO:0043549), 1/94,0.4841080667484399,0.6194632189123614,NTRK2
+GO_Biological_Process_2021,sensory perception of light stimulus (GO:0050953), 1/95,0.4877363550634022,0.6225378602316792,USH1G
+GO_Biological_Process_2021,regulation of vesicle-mediated transport (GO:0060627), 1/96,0.4913393063708963,0.6255648311689607,HAP1
+GO_Biological_Process_2021,regulation of MAP kinase activity (GO:0043405), 1/97,0.4949170964015145,0.6285447124299235,BMP7
+GO_Biological_Process_2021,response to UV (GO:0009411), 1/99,0.5019978891504794,0.6359474505946222,SERPINB13
+GO_Biological_Process_2021,organic acid transport (GO:0015849), 1/100,0.5055012372413341,0.6387926082552182,SLC6A15
+GO_Biological_Process_2021,positive regulation of protein localization to membrane (GO:1905477), 1/101,0.508980114647036,0.6415927996047004,TP63
+GO_Biological_Process_2021,regulation of cell death (GO:0010941), 1/102,0.5124346910952726,0.6427575878429593,BMP7
+GO_Biological_Process_2021,cell junction assembly (GO:0034329), 1/102,0.5124346910952726,0.6427575878429593,PKP1
+GO_Biological_Process_2021,chromosome organization (GO:0051276), 1/106,0.5260133410282987,0.6549381795156268,PADI3
+GO_Biological_Process_2021,regulation of phosphatidylinositol 3-kinase signaling (GO:0014066), 1/106,0.5260133410282987,0.6549381795156268,NTRK2
+GO_Biological_Process_2021,protein localization to nucleus (GO:0034504), 1/106,0.5260133410282987,0.6549381795156268,BMP7
+GO_Biological_Process_2021,positive regulation of signal transduction (GO:0009967), 2/252,0.5286330200142284,0.6565906458856431,HAP1;TP63
+GO_Biological_Process_2021,transmembrane receptor protein tyrosine kinase signaling pathway (GO:0007169), 3/404,0.5398695988177654,0.668911600486402,NTRK2;COL4A6;HAP1
+GO_Biological_Process_2021,cellular component assembly (GO:0022607), 2/261,0.5475905716303042,0.6741432769507236,KRT14;PKP1
+GO_Biological_Process_2021,negative regulation of cell motility (GO:2000146), 1/114,0.5520543370305138,0.6741432769507236,KRT16
+GO_Biological_Process_2021,positive regulation of cellular component organization (GO:0051130), 1/114,0.5520543370305138,0.6741432769507236,BMP7
+GO_Biological_Process_2021,response to lipid (GO:0033993), 1/114,0.5520543370305138,0.6741432769507236,S100A7
+GO_Biological_Process_2021,histone modification (GO:0016570), 1/114,0.5520543370305138,0.6741432769507236,PADI3
+GO_Biological_Process_2021,positive regulation of kinase activity (GO:0033674), 1/114,0.5520543370305138,0.6741432769507236,NTRK2
+GO_Biological_Process_2021,cellular response to molecule of bacterial origin (GO:0071219), 1/115,0.5552079236027212,0.6763684057318522,IL36G
+GO_Biological_Process_2021,regulation of protein phosphorylation (GO:0001932), 2/266,0.5578921756207056,0.6769366316265792,NTRK2;BMP7
+GO_Biological_Process_2021,sphingolipid metabolic process (GO:0006665), 1/116,0.5583394658494817,0.6769366316265792,CERS3
+GO_Biological_Process_2021,positive regulation of cell projection organization (GO:0031346), 1/117,0.5614491169702507,0.6790860748116365,NTRK2
+GO_Biological_Process_2021,cellular response to lipopolysaccharide (GO:0071222), 1/120,0.5706482371416394,0.6885731697576076,IL36G
+GO_Biological_Process_2021,cellular response to interferon-gamma (GO:0071346), 1/121,0.5736718323621349,0.6892953814323284,GBP6
+GO_Biological_Process_2021,positive regulation of MAPK cascade (GO:0043410), 2/274,0.5740289006780229,0.6892953814323284,NTRK2;S100A7
+GO_Biological_Process_2021,regulation of mRNA catabolic process (GO:0061013), 1/122,0.5766742856471251,0.6892953814323284,PKP1
+GO_Biological_Process_2021,potassium ion transport (GO:0006813), 1/122,0.5766742856471251,0.6892953814323284,KCNG1
+GO_Biological_Process_2021,cellular protein modification process (GO:0006464), 7/1025,0.5811114643693371,0.6927377497660864,SPRR2E;PTPRZ1;AMTN;PI3;SPRR1A;DUSP9;SPRR1B
+GO_Biological_Process_2021,regulation of nucleic acid-templated transcription (GO:1903506), 3/430,0.5822815337600765,0.6927377497660864,BNC1;HOXD13;ZNF488
+GO_Biological_Process_2021,protein targeting (GO:0006605), 1/125,0.5855562566762119,0.6933859636165867,HAP1
+GO_Biological_Process_2021,regulation of phosphorylation (GO:0042325), 1/125,0.5855562566762119,0.6933859636165867,BMP7
+GO_Biological_Process_2021,cellular response to hypoxia (GO:0071456), 1/131,0.6027688662081692,0.7121083349622092,BMP7
+GO_Biological_Process_2021,"regulation of transcription, DNA-templated (GO:0006355)", 15/2244,0.615309408545408,0.7216984086724917,FOXE1;DLX5;BNC1;DMRT2;DLX6;IRX4;EN1;HR;HOXD13;HOXD11;FOXN1;BMP7;HOXD10;ZNF488;TP63
+GO_Biological_Process_2021,protein localization to plasma membrane (GO:0072659), 1/136,0.6165691129209869,0.7216984086724917,MRAP2
+GO_Biological_Process_2021,negative regulation of inflammatory response to antigenic stimulus (GO:0002862), 1/136,0.6165691129209869,0.7216984086724917,PTHLH
+GO_Biological_Process_2021,organic substance transport (GO:0071702), 1/136,0.6165691129209869,0.7216984086724917,RHCG
+GO_Biological_Process_2021,regulation of inflammatory response to antigenic stimulus (GO:0002861), 1/137,0.6192714963196077,0.7231952186904843,PTHLH
+GO_Biological_Process_2021,regulation of cell population proliferation (GO:0042127), 5/764,0.6233359728318438,0.7242067677346761,SERPINB3;NTRK2;BNC1;PTHLH;KRT6A
+GO_Biological_Process_2021,potassium ion transmembrane transport (GO:0071805), 1/139,0.6246196610917834,0.7242067677346761,KCNG1
+GO_Biological_Process_2021,neuron projection morphogenesis (GO:0048812), 1/140,0.627265704337121,0.7242067677346761,BMP7
+GO_Biological_Process_2021,protein localization to cell periphery (GO:1990778), 1/140,0.627265704337121,0.7242067677346761,MRAP2
+GO_Biological_Process_2021,enzyme linked receptor protein signaling pathway (GO:0007167), 1/140,0.627265704337121,0.7242067677346761,NTRK2
+GO_Biological_Process_2021,chromatin organization (GO:0006325), 1/142,0.6325023605752406,0.7250053053352412,PADI3
+GO_Biological_Process_2021,protein localization to organelle (GO:0033365), 1/142,0.6325023605752406,0.7250053053352412,BMP7
+GO_Biological_Process_2021,negative regulation of nucleic acid-templated transcription (GO:1903507), 3/464,0.6339162237279931,0.7250053053352412,FOXE1;BMP7;TP63
+GO_Biological_Process_2021,negative regulation of DNA-binding transcription factor activity (GO:0043433), 1/143,0.6350932300672881,0.7250053053352412,BMP7
+GO_Biological_Process_2021,monocarboxylic acid metabolic process (GO:0032787), 1/143,0.6350932300672881,0.7250053053352412,ADH7
+GO_Biological_Process_2021,negative regulation of cell migration (GO:0030336), 1/144,0.6376659633310202,0.7263101106999064,KRT16
+GO_Biological_Process_2021,regulation of cellular macromolecule biosynthetic process (GO:2000112), 3/468,0.6396944322658303,0.7269905404721294,BNC1;HOXD13;ZNF488
+GO_Biological_Process_2021,positive regulation of apoptotic process (GO:0043065), 2/310,0.641331041755003,0.727223591990048,DUSP9;TP63
+GO_Biological_Process_2021,positive regulation of intracellular protein transport (GO:0090316), 1/148,0.6477780418303583,0.7312694338884933,TP63
+GO_Biological_Process_2021,positive regulation of transferase activity (GO:0051347), 1/148,0.6477780418303583,0.7312694338884933,NTRK2
+GO_Biological_Process_2021,brain development (GO:0007420), 1/150,0.6527284998446612,0.7352241195589533,HAP1
+GO_Biological_Process_2021,cellular response to cytokine stimulus (GO:0071345), 3/482,0.6594183006679415,0.7411161432285714,GBP6;PTPRZ1;IL36G
+GO_Biological_Process_2021,regulation of signal transduction by p53 class mediator (GO:1901796), 1/156,0.6671691580087509,0.744883367622957,TP63
+GO_Biological_Process_2021,regulation of cell differentiation (GO:0045595), 1/156,0.6671691580087509,0.744883367622957,PTHLH
+GO_Biological_Process_2021,peptidyl-serine phosphorylation (GO:0018105), 1/156,0.6671691580087509,0.744883367622957,PNCK
+GO_Biological_Process_2021,cellular response to starvation (GO:0009267), 1/158,0.6718489529732262,0.7468255319702384,DAPL1
+GO_Biological_Process_2021,organonitrogen compound biosynthetic process (GO:1901566), 1/158,0.6718489529732262,0.7468255319702384,CERS3
+GO_Biological_Process_2021,protein autophosphorylation (GO:0046777), 1/159,0.6741642919225134,0.7477630137481153,NTRK2
+GO_Biological_Process_2021,intracellular protein transport (GO:0006886), 2/336,0.6845786188613912,0.7570303496463145,HAP1;SNX31
+GO_Biological_Process_2021,heart development (GO:0007507), 1/164,0.68549992290808,0.7570303496463145,BMP7
+GO_Biological_Process_2021,regulation of neuron projection development (GO:0010975), 1/165,0.6877196152729813,0.757834196439641,NTRK2
+GO_Biological_Process_2021,regulation of MAPK cascade (GO:0043408), 1/166,0.6899237524013201,0.7586174593503693,NTRK2
+GO_Biological_Process_2021,peptidyl-serine modification (GO:0018209), 1/169,0.6964439111002003,0.7641328441444962,PNCK
+GO_Biological_Process_2021,neuron projection development (GO:0031175), 1/171,0.7007148718285032,0.767161971743275,BMP7
+GO_Biological_Process_2021,supramolecular fiber organization (GO:0097435), 2/351,0.7075463345096814,0.7729753503890714,COL7A1;COL4A6
+GO_Biological_Process_2021,mitochondrion organization (GO:0007005), 1/175,0.7090786153648152,0.7729869884234466,HAP1
+GO_Biological_Process_2021,negative regulation of immune response (GO:0050777), 1/178,0.7151987485317098,0.7779892168182196,PTHLH
+GO_Biological_Process_2021,negative regulation of cytokine production (GO:0001818), 1/182,0.7231605080606195,0.784969098493151,LGALS7
+GO_Biological_Process_2021,endoplasmic reticulum to Golgi vesicle-mediated transport (GO:0006888), 1/185,0.7289864400789324,0.7896057815780334,COL7A1
+GO_Biological_Process_2021,positive regulation of protein phosphorylation (GO:0001934), 2/371,0.7360000339241256,0.7944272292666164,NTRK2;BMP7
+GO_Biological_Process_2021,regulation of GTPase activity (GO:0043087), 1/189,0.7365654035129455,0.7944272292666164,NTRK2
+GO_Biological_Process_2021,negative regulation of cellular macromolecule biosynthetic process (GO:2000113), 3/547,0.7408032926245589,0.7973052386721947,FOXE1;BMP7;TP63
+GO_Biological_Process_2021,protein localization to membrane (GO:0072657), 1/195,0.7475410237691524,0.8028558986780748,MRAP2
+GO_Biological_Process_2021,negative regulation of intracellular signal transduction (GO:1902532), 1/198,0.7528573407442802,0.806859766029735,BMP7
+GO_Biological_Process_2021,regulation of macromolecule metabolic process (GO:0060255), 1/200,0.7563396476796467,0.8088853495184433,PTHLH
+GO_Biological_Process_2021,regulation of protein kinase B signaling (GO:0051896), 1/207,0.7681484590487231,0.8197886915898137,NTRK2
+GO_Biological_Process_2021,negative regulation of inflammatory response (GO:0050728), 1/212,0.7762337033527028,0.8266807574489999,PTHLH
+GO_Biological_Process_2021,positive regulation of protein modification process (GO:0031401), 1/214,0.779388851147206,0.8283044694200432,NTRK2
+GO_Biological_Process_2021,regulation of cell migration (GO:0030334), 2/408,0.7824796401995415,0.8291582354508813,SERPINB3;KRT16
+GO_Biological_Process_2021,regulation of transcription by RNA polymerase II (GO:0006357), 13/2206,0.7834566004260296,0.8291582354508813,TENM2;FOXE1;DLX5;DMRT2;DLX6;IRX4;EN1;HR;HOXD13;HOXD11;FOXN1;HOXD10;TP63
+GO_Biological_Process_2021,cellular response to lipid (GO:0071396), 1/219,0.7870847949460363,0.8312662699222172,IL36G
+GO_Biological_Process_2021,positive regulation of cell motility (GO:2000147), 1/221,0.79008799753697,0.8327068521758937,SERPINB3
+GO_Biological_Process_2021,organelle organization (GO:0006996), 2/420,0.7959473574001215,0.8371454607852209,KRT16;KRT13
+GO_Biological_Process_2021,"negative regulation of transcription, DNA-templated (GO:0045892)", 5/948,0.7988683059298546,0.8384816103561284,TENM2;FOXE1;EN1;BMP7;TP63
+GO_Biological_Process_2021,regulation of autophagy (GO:0010506), 1/231,0.8044846483955038,0.8426354667730226,DAPL1
+GO_Biological_Process_2021,regulation of intracellular signal transduction (GO:1902531), 2/437,0.8137725161355405,0.8490694769628422,NTRK2;TP63
+GO_Biological_Process_2021,cytokine-mediated signaling pathway (GO:0019221), 3/621,0.8139701481907563,0.8490694769628422,SERPINB2;PTPRZ1;IL36G
+GO_Biological_Process_2021,positive regulation of phosphorylation (GO:0042327), 1/253,0.8327979195767575,0.8669289818544934,NTRK2
+GO_Biological_Process_2021,"positive regulation of transcription, DNA-templated (GO:0045893)", 6/1183,0.8422496222358024,0.8749750676805473,FOXE1;DLX5;BNC1;HOXD13;BMP7;TP63
+GO_Biological_Process_2021,protein-containing complex assembly (GO:0065003), 1/267,0.8486549721150694,0.879830052723378,COL7A1
+GO_Biological_Process_2021,positive regulation of cell migration (GO:0030335), 1/269,0.8507948834526069,0.8802521401098254,SERPINB3
+GO_Biological_Process_2021,negative regulation of apoptotic process (GO:0043066), 2/485,0.8568608949062089,0.8847262898625083,NTRK2;PTPRZ1
+GO_Biological_Process_2021,negative regulation of transcription by RNA polymerase II (GO:0000122), 3/684,0.8618322622100875,0.8880543391535992,TENM2;FOXE1;EN1
+GO_Biological_Process_2021,protein phosphorylation (GO:0006468), 2/496,0.8653693980658075,0.8897693322779904,NTRK2;PNCK
+GO_Biological_Process_2021,positive regulation of programmed cell death (GO:0043068), 1/286,0.8678124347428955,0.8897693322779904,DUSP9
+GO_Biological_Process_2021,proteolysis (GO:0006508), 1/287,0.8687511590745733,0.8897693322779904,TMPRSS11D
+GO_Biological_Process_2021,regulation of cell cycle (GO:0051726), 1/296,0.8769073100498397,0.8963157213386692,BMP7
+GO_Biological_Process_2021,MAPK cascade (GO:0000165), 1/303,0.882901302622376,0.9006302444421024,DUSP9
+GO_Biological_Process_2021,regulation of apoptotic process (GO:0042981), 3/742,0.8960515311333903,0.9122127811939122,TP53AIP1;DUSP9;TP63
+GO_Biological_Process_2021,cellular response to oxygen-containing compound (GO:1901701), 1/323,0.8984766064488715,0.9128522321520536,IL36G
+GO_Biological_Process_2021,cellular protein localization (GO:0034613), 1/329,0.9027346727807604,0.9153477320810904,SNX31
+GO_Biological_Process_2021,negative regulation of cellular process (GO:0048523), 2/566,0.9095350254253682,0.9204059619842372,BMP7;PTHLH
+GO_Biological_Process_2021,post-translational protein modification (GO:0043687), 1/345,0.9132421548657657,0.922320108691469,AMTN
+GO_Biological_Process_2021,protein transport (GO:0015031), 1/369,0.9269266523162492,0.9342832130489178,SNX31
+GO_Biological_Process_2021,negative regulation of cell population proliferation (GO:0008285), 1/379,0.9319748156221122,0.9375112996753128,PTHLH
+GO_Biological_Process_2021,cellular protein metabolic process (GO:0044267), 1/417,0.94819328505338,0.9519410845990454,AMTN
+GO_Biological_Process_2021,positive regulation of transcription by RNA polymerase II (GO:0045944), 3/908,0.9561223865991906,0.9580082295707866,DLX5;HOXD13;TP63
+GO_Biological_Process_2021,positive regulation of intracellular signal transduction (GO:1902533), 1/546,0.9795292355847516,0.9795292355847516,NTRK2
